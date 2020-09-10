@@ -51,7 +51,7 @@ function objToSql(ob) {
         cb(result);	
       });	
     },	
-    // An example of objColVals would be {name: panther, sleepy: true}	
+    // An example of objColVals would be {name: panther, devoured: true}	
     update: function(table, objColVals, condition, cb) {	
       var queryString = "UPDATE " + table;	
       queryString += " SET ";	
