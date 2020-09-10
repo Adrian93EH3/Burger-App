@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Adrian93EH3/Burger-App/issues"
   },
-  "homepage": "https://github.com/Adrian93EH3/Burger-App#readme"
+  "homepage": "https://github.com/Adrian93EH3/Burger-App#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1"
+  }
 }
