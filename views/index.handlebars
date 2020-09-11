@@ -6,16 +6,14 @@
   {{#each burgers}}
     {{#unless devoured}}
     <li>
-
-
         {{name}}
-        <button class="change-sleep" data-id="{{id}}">DEVOUR BURGER!</button>
+        <button class="change-devoured" data-id="{{id}}">DEVOUR BURGER!</button>
     </li>
     {{/unless}}
   {{/each}}
 </ul>
 
-<h2>BURGERS YOU DEVOURED! YA' MONSTA'!</h2>
+<h2>BURGERS YOU DEVOURED! YUR' A MONSTA'!</h2>
 
 <ul>
   {{#each burgers}}
