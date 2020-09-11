@@ -1,6 +1,5 @@
 // Set up MySQL connection
 var mysql = require("mysql");
-var connection;
 
 // var connection = mysql.createConnection({
 //   host: "localhost",
@@ -10,7 +9,10 @@ var connection;
 //   database: "burger_db"
 // });
 
-// 
+// PDF HELP FOR HEROKU DEPLOYMENT
+// ===================================
+var connection;
+
 if (process.env.JAWSB_URL) {
     connection = mysql.createConnection(process.env.JAWSB_URL);
 } else {
